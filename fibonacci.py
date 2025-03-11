@@ -24,6 +24,7 @@ def calculadora_fibonacci():
                 break
         if fibo == False:
             print('Your number is not in the fibonacci sequence')
+    fibo_anterior.insert(0,0)
     print("Previous and current fibonacci numbers:" + str(fibo_anterior))
 sair = False
 
